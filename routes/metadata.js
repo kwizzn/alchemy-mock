@@ -53,8 +53,10 @@ function getCollection(data) {
   }
 }
 
-function getContract(data = {}) {
+async function getContract(data = {}) {
+  const meta = JSON.parse(await readFile(`./mock/collections/${data.symbol}/_meta.json`, 'utf-8'));
   return {
+    ...meta,
     "address": data.address || "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
     "name": data.collection?.name || "BoredApeYachtClub",
     "symbol": data.symbol || "BAYC",
@@ -62,27 +64,14 @@ function getContract(data = {}) {
     "tokenType": data.tokenType || "ERC721",
     "contractDeployer": data.contractDeployer || "0xaBA7161A7fb69c88e16ED9f455CE62B791EE4D03",
     "deployedBlockNumber": data.deployedBlockNumber || 12287507,
-    "openSeaMetadata": {
-      "floorPrice": data.openSeaMetadata?.floorPrice || 10.4,
-      "collectionName": data.openSeaMetadata?.collectionName || "Bored Ape Yacht Club",
-      "collectionSlug": data.openSeaMetadata?.collectionSlug || "boredapeyachtclub",
-      "safelistRequestStatus": data.openSeaMetadata?.safelistRequestStatus || "verified",
-      "imageUrl": data.openSeaMetadata?.imageUrl || "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?w=500&auto=format",
-      "description": data.openSeaMetadata?.description || "The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.BoredApeYachtClub.com for more details.",
-      "externalUrl": data.openSeaMetadata?.externalUrl || null,
-      "twitterUsername": data.openSeaMetadata?.twitterUsername || "BoredApeYC",
-      "discordUrl": data.openSeaMetadata?.discordUrl || "https://discord.gg/3P5K3dzgdB",
-      "bannerImageUrl": data.openSeaMetadata?.bannerImageUrl || "https://i.seadn.io/gae/i5dYZRkVCUK97bfprQ3WXyrT9BnLSZtVKGJlKQ919uaUB0sxbngVCioaiyu9r6snqfi2aaTyIvv6DHm4m2R3y7hMajbsv14pSZK8mhs?w=500&auto=format",
-      "lastIngestedAt": data.openSeaMetadata?.lastIngestedAt || "2025-07-08T17:33:19.000Z"
-    },
     "isSpam": false,
     "spamClassifications": []
   };
 }
 
-function getMetadata(data = {}) {
+async function getMetadata(data = {}) {
   return {
-    "contract": getContract(data),
+    "contract": await getContract(data),
     "tokenId": data.tokenId?.toString() || "5954",
     "tokenType": "ERC721",
     "name": data.name || null,
@@ -156,6 +145,11 @@ function getMetadata(data = {}) {
 router.get('/getNFTsForOwner', async (req, res, next) => {
   try {
     const owner = req.query.owner;
+    const contractAddresses = req.query['contractAddresses[]'];
+    let filter;
+    if (contractAddresses) {
+      filter = Array.isArray(contractAddresses) ? contractAddresses : [contractAddresses];
+    }
 
     const provider = new ethers.JsonRpcProvider(process.env.RPC_PROVIDER);
     const abi = JSON.parse(await readFile('../zwap-contracts/abi/MockERC721.json', 'utf-8'));
@@ -172,7 +166,10 @@ router.get('/getNFTsForOwner', async (req, res, next) => {
       const mockERC721 = new ethers.Contract(contract, abi, signer);
       for(let i = 0; i < await mockERC721.balanceOf(owner); i++) {
         const id = await mockERC721.tokenOfOwnerByIndex(owner, i);
-        result.push(getMetadata(getCollection({
+        if (filter && !filter.map(a => a.toLowerCase()).includes(contract.toLowerCase())) {
+          continue;
+        }
+        result.push(await getMetadata(getCollection({
           address: contract,
           symbol,
           tokenId: Number(id),
@@ -247,7 +244,7 @@ router.get('/searchContractMetadata', async (req, res, next) => {
       ];
 
       if (fields.some(field => field.includes(query.toLowerCase()))) {
-        contracts.push(getContract(getCollection({symbol: key})));
+        contracts.push(await getContract(getCollection({symbol: key})));
       }
     }
 
