@@ -1,0 +1,1812 @@
+{
+  "ownedNfts": [
+    {
+      "contract": {
+        "address": "0xEf8c9C4651D93794D5b90fcB9ffBBCaD22faB376",
+        "name": "pepefinance.net",
+        "symbol": "claim rewards on pepefinance.net",
+        "totalSupply": "1500",
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x1EC53f4e908079D7cD26036dad316237Cd5Cf872",
+        "deployedBlockNumber": 21777401,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": "Visit pepefinance.net to claim rewards",
+          "collectionSlug": "visit-pepefinance-net-to-claim-rewards-22",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/112cae058ad94fe7bbb04d4193c3f054/6f9e545a6b32a3daa33c3ad263e898/5e6f9e545a6b32a3daa33c3ad263e898.png",
+          "description": "Visit pepefinance.net to claim rewards",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": null,
+          "lastIngestedAt": "2025-07-05T15:43:30.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "0",
+      "tokenType": "ERC1155",
+      "name": "Visit pepefinance.net to claim rewards",
+      "description": "Visit pepefinance.net to claim rewards",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/QmRxuMaE1aeJvchN92bmDHGDxft9W4LtEYBAGfiB5UostH/0000000000000000000000000000000000000000000000000000000000000000.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/4bdaf86e81e926b54912b9b983ac2aec",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/4bdaf86e81e926b54912b9b983ac2aec",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/4bdaf86e81e926b54912b9b983ac2aec",
+        "contentType": "image/png",
+        "size": 325436,
+        "originalUrl": "https://ipfs.io/ipfs/QmP2p7AgsahGSC7AtUCKvsCSFwa9nywQ3rGcQqd4E2GQ5X"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://ipfs.io/ipfs/QmRxuMaE1aeJvchN92bmDHGDxft9W4LtEYBAGfiB5UostH/{id}.json",
+        "metadata": {
+          "name": "Visit pepefinance.net to claim rewards",
+          "description": "Visit pepefinance.net to claim rewards",
+          "image": "https://ipfs.io/ipfs/QmP2p7AgsahGSC7AtUCKvsCSFwa9nywQ3rGcQqd4E2GQ5X"
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Visit pepefinance.net to claim rewards",
+        "slug": "visit-pepefinance-net-to-claim-rewards-22",
+        "externalUrl": null,
+        "bannerImageUrl": null
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-06-05T01:45:53.762Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xeFD3bECdd3B93DB78E3170c85C892FCBE107B7e8",
+        "name": "Cute Emma Genesis",
+        "symbol": "Cute Emma Genesis",
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xf804559A122860B6f4ed4f9774425E2e1Fb48F56",
+        "deployedBlockNumber": 15600208,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Cute Emma Genesis",
+          "collectionSlug": "cute-emma-genesis",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/a4342f1c7cc74dd29a3dd33772db599c/6a4f811f6415da23bd8972ba243685/0f6a4f811f6415da23bd8972ba243685.jpeg",
+          "description": "Raise your Emma at [https://emmanft.xyz](https://emmanft.xyz/?source=cd) and get your Ultimate Rewards.\n\n[Emma's](https://emmanft.xyz/?source=cd) time goes with you and NFT changes with that. This is the first system introduced.\n\nRaise your Emma to final step and get your Rewards.",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/a4342f1c7cc74dd29a3dd33772db599c/3969dae716d3c21b61b0f641cb6ff8/233969dae716d3c21b61b0f641cb6ff8.jpeg?fit=inside",
+          "lastIngestedAt": "2025-07-10T04:12:58.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "EmptyMetadata",
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "453",
+      "tokenType": "ERC1155",
+      "name": null,
+      "description": null,
+      "tokenUri": "https://emmanft.xyz/ipfs/453",
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://emmanft.xyz/ipfs/453",
+        "metadata": {},
+        "error": null
+      },
+      "collection": {
+        "name": "Cute Emma Genesis",
+        "slug": "cute-emma-genesis",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/a4342f1c7cc74dd29a3dd33772db599c/3969dae716d3c21b61b0f641cb6ff8/233969dae716d3c21b61b0f641cb6ff8.jpeg?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2024-05-28T18:20:09.558Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf37e6eBd1cDc07b4D2eD6CB867bEee33534e34DE",
+        "name": "Maverick",
+        "symbol": "MAV",
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xf60a5d93DCAad21d6F7F3E40A20Ac8ca1310CCE4",
+        "deployedBlockNumber": 12155683,
+        "openSeaMetadata": {
+          "floorPrice": 0.4,
+          "collectionName": "Logan Paul Digital Collectibles Store",
+          "collectionSlug": "logan",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/03279b556e7e496294012954b3fa3281/dad7939b2f8e5faa0595edd451ae75/f7dad7939b2f8e5faa0595edd451ae75.png",
+          "description": "Logan Paul Official Digital Collectibles",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/03279b556e7e496294012954b3fa3281/e7d4e40977d7e94ac4a103e2ea9381/0ae7d4e40977d7e94ac4a103e2ea9381.jpeg?fit=inside",
+          "lastIngestedAt": "2025-07-10T04:54:57.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "1",
+      "tokenType": "ERC1155",
+      "name": "Logan Paul, Box Breaker",
+      "description": "Celebrating the largest box break in history",
+      "tokenUri": "https://api.maverickchamp.com/api/maverick/1",
+      "image": {
+        "cachedUrl": "https://api.maverickchamp.com/images/LoganV1.jpg",
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": "https://api.maverickchamp.com/images/LoganV1.jpg"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://api.maverickchamp.com/api/maverick/1",
+        "metadata": {
+          "name": "Logan Paul, Box Breaker",
+          "image": "https://api.maverickchamp.com/images/LoganV1.jpg",
+          "description": "Celebrating the largest box break in history",
+          "external_url": "https://bondly.finance/",
+          "attributes": [
+            {
+              "value": "Logan Paul",
+              "trait_type": "LOGANPAUL"
+            },
+            {
+              "value": "Break 1 on Feb 27,2021",
+              "trait_type": "BREAK1"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Logan Paul Digital Collectibles Store",
+        "slug": "logan",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/03279b556e7e496294012954b3fa3281/e7d4e40977d7e94ac4a103e2ea9381/0ae7d4e40977d7e94ac4a103e2ea9381.jpeg?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-06-10T12:33:00.747Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf3E6DbBE461C6fa492CeA7Cb1f5C5eA660EB1B47",
+        "name": "FameLadySquad",
+        "symbol": "FLS",
+        "totalSupply": "8888",
+        "tokenType": "ERC721",
+        "contractDeployer": "0xd5C6e4E364ebA38e705B1f83c9C6836ae127b5D7",
+        "deployedBlockNumber": 12813031,
+        "openSeaMetadata": {
+          "floorPrice": 0.010481,
+          "collectionName": "FameLadySquad",
+          "collectionSlug": "fameladysquad",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/98bc72c3e4ca455f8d175dba06102abf/90b87c85ee5c763e1ef1e52bc150e3/f690b87c85ee5c763e1ef1e52bc150e3.png",
+          "description": "Fame Lady Squad is the first ever all-female generative avatar collection on the Ethereum blockchain. Yes, we are *THE* community who took over a project to write our own story. This is NFT history. This is HERstory. \n\nFLS are 8888 distinctive Ladies made up of millions of fierce trait combinations.\n\nCommunity = Everything. Commercial IP rights of each Lady NFT belong to its owner.",
+          "externalUrl": null,
+          "twitterUsername": "fame_ladies",
+          "discordUrl": "https://discord.gg/fcgQA9y3jg",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/98bc72c3e4ca455f8d175dba06102abf/35c7b31cd5eb28674edb28022892f6/bd35c7b31cd5eb28674edb28022892f6.png?fit=inside",
+          "lastIngestedAt": "2025-07-09T15:48:48.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "1753",
+      "tokenType": "ERC721",
+      "name": "Fame Lady #1753",
+      "description": "Fame Lady Squad is the first ever generative all-female avatar collection on the Ethereum blockchain. Yes, we are THE community who took over a project to write our own story. This is NFT history. This is HERstory. FLS are 8888 distinctive Ladies made up of millions of fierce trait combinations. Community = Everything. Commercial IP rights of each Lady NFT belong to its owner.",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/QmTngWTnURuyiz1gtoY33FKghCiU2uQusXpnUc36QJNKsY/1753",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/61d81e17b61a310aae274ff943c53a15",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/61d81e17b61a310aae274ff943c53a15",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/61d81e17b61a310aae274ff943c53a15",
+        "contentType": "image/png",
+        "size": 1050330,
+        "originalUrl": "https://ipfs.io/ipfs/QmRRRcbfE3fTqBLTmmYMxENaNmAffv7ihJnwFkAimBP4Ac/1753.png"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "ipfs://QmTngWTnURuyiz1gtoY33FKghCiU2uQusXpnUc36QJNKsY/1753",
+        "metadata": {
+          "name": "Fame Lady #1753",
+          "description": "Fame Lady Squad is the first ever generative all-female avatar collection on the Ethereum blockchain. Yes, we are THE community who took over a project to write our own story. This is NFT history. This is HERstory. FLS are 8888 distinctive Ladies made up of millions of fierce trait combinations. Community = Everything. Commercial IP rights of each Lady NFT belong to its owner.",
+          "image": "ipfs://QmRRRcbfE3fTqBLTmmYMxENaNmAffv7ihJnwFkAimBP4Ac/1753.png",
+          "attributes": [
+            {
+              "value": "White",
+              "trait_type": "Skin"
+            },
+            {
+              "value": "Blue",
+              "trait_type": "Background"
+            },
+            {
+              "value": "Pokerface",
+              "trait_type": "Face Expression"
+            },
+            {
+              "value": "Red Blue Laser",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Blue Arrow",
+              "trait_type": "Nose Piercing Upper"
+            },
+            {
+              "value": "Freckles",
+              "trait_type": "Cheek"
+            },
+            {
+              "value": "Red Nice Dress",
+              "trait_type": "Clothes"
+            },
+            {
+              "value": "Straight Purple",
+              "trait_type": "Hair"
+            },
+            {
+              "value": "Golden Circle",
+              "trait_type": "Ear Piercing Right"
+            },
+            {
+              "value": "Golden Ring",
+              "trait_type": "Ear Piercing Lower"
+            },
+            {
+              "value": "Cigarette",
+              "trait_type": "Mouth"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "FameLadySquad",
+        "slug": "fameladysquad",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/98bc72c3e4ca455f8d175dba06102abf/35c7b31cd5eb28674edb28022892f6/bd35c7b31cd5eb28674edb28022892f6.png?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-04-09T20:01:41.052Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf477163F817202c393FF612CFf977abDd3Cd4f5E",
+        "name": "Blvck Paris",
+        "symbol": "BP",
+        "totalSupply": "95692",
+        "tokenType": "ERC721",
+        "contractDeployer": "0xf201772689D83c259F75c84c6d65747d47B02FBa",
+        "deployedBlockNumber": 14626098,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Blvck Paris - Free",
+          "collectionSlug": "blvck-paris-free-mint",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/577fbd45b5b345c6bd1f78f0bd002533/2efa84f8cf2e787addefda90064c12/282efa84f8cf2e787addefda90064c12.jpeg",
+          "description": "Come join the revolution. You invited have exclusive presale access to Blvck Paris - [Free mint now](https://blvcksnft.com) at [https://blvcksnft.com](https://blvcksnft.com) today!\n",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": "https://discord.gg/blvcksnft",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/577fbd45b5b345c6bd1f78f0bd002533/dce712ceac3e77fedb4202e62900f8/57dce712ceac3e77fedb4202e62900f8.jpeg?fit=inside",
+          "lastIngestedAt": "2025-07-10T04:08:41.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "OwnedByMostHoneyPots",
+          "NoSalesActivity",
+          "HighAirdropPercent",
+          "HighHoneyPotPercent",
+          "HoneyPotsOwnMultipleTokens"
+        ]
+      },
+      "tokenId": "57549",
+      "tokenType": "ERC721",
+      "name": null,
+      "description": null,
+      "tokenUri": null,
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": null,
+        "metadata": {},
+        "error": "Failed to get token uri"
+      },
+      "collection": {
+        "name": "Blvck Paris - Free",
+        "slug": "blvck-paris-free-mint",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/577fbd45b5b345c6bd1f78f0bd002533/dce712ceac3e77fedb4202e62900f8/57dce712ceac3e77fedb4202e62900f8.jpeg?fit=inside"
+      },
+      "mint": {
+        "mintAddress": "0xd2b9f9d1e6734f241b2a6eb64ef7f6e63af0a97d",
+        "blockNumber": 14627757,
+        "timestamp": "2022-04-21T10:19:27Z",
+        "transactionHash": "0x410a6bb6b9b1b320ef91d322a1cc46a257ac74f9b96d8688a71c26f2bb25ff9d"
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-10T12:04:24.106Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf477163F817202c393FF612CFf977abDd3Cd4f5E",
+        "name": "Blvck Paris",
+        "symbol": "BP",
+        "totalSupply": "95692",
+        "tokenType": "ERC721",
+        "contractDeployer": "0xf201772689D83c259F75c84c6d65747d47B02FBa",
+        "deployedBlockNumber": 14626098,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Blvck Paris - Free",
+          "collectionSlug": "blvck-paris-free-mint",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/577fbd45b5b345c6bd1f78f0bd002533/2efa84f8cf2e787addefda90064c12/282efa84f8cf2e787addefda90064c12.jpeg",
+          "description": "Come join the revolution. You invited have exclusive presale access to Blvck Paris - [Free mint now](https://blvcksnft.com) at [https://blvcksnft.com](https://blvcksnft.com) today!\n",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": "https://discord.gg/blvcksnft",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/577fbd45b5b345c6bd1f78f0bd002533/dce712ceac3e77fedb4202e62900f8/57dce712ceac3e77fedb4202e62900f8.jpeg?fit=inside",
+          "lastIngestedAt": "2025-07-10T04:08:41.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "OwnedByMostHoneyPots",
+          "NoSalesActivity",
+          "HighAirdropPercent",
+          "HighHoneyPotPercent",
+          "HoneyPotsOwnMultipleTokens"
+        ]
+      },
+      "tokenId": "79334",
+      "tokenType": "ERC721",
+      "name": null,
+      "description": null,
+      "tokenUri": null,
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": null,
+        "metadata": {},
+        "error": "Failed to get token uri"
+      },
+      "collection": {
+        "name": "Blvck Paris - Free",
+        "slug": "blvck-paris-free-mint",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/577fbd45b5b345c6bd1f78f0bd002533/dce712ceac3e77fedb4202e62900f8/57dce712ceac3e77fedb4202e62900f8.jpeg?fit=inside"
+      },
+      "mint": {
+        "mintAddress": "0xd2b9f9d1e6734f241b2a6eb64ef7f6e63af0a97d",
+        "blockNumber": 14628208,
+        "timestamp": "2022-04-21T12:09:36Z",
+        "transactionHash": "0x983c7fc2ef809979ce35b995de497ea511e6a72308adccb6bbc364267048cab4"
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-10T12:04:24.118Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF5fCD1c53AB1Cf640F3bfE55cf0797945068A178",
+        "name": " Tomb Raider Mint Pass Club",
+        "symbol": " Tomb Raider Mint Pass Club",
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xCd3315e0f77c20D77eAb3e5fa0DB8C914Ba1405d",
+        "deployedBlockNumber": 15773267,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": "Tomb Raider Mint Pass Club",
+          "collectionSlug": "tomb-raider-mint-pass-club",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/ca7d5cd00e5f4206b0b8eaa2ebdaf07e/8d66116b0edebcb2bfd60be8d1c2c3/c28d66116b0edebcb2bfd60be8d1c2c3.jpeg",
+          "description": "[Free mint](https://tombraidernft.xyz) tombraider NFT at https://tombraidernft.xyz\n\nTomb Raider Mint pass is an collection of nfts to take part in Tomb Raider Free Mint.\nAny users who have mint pass can mint nft at the [official site](https://tombraidernft.xyz) for free.\nTo facilitate healthy growth of NFT space through the reach of our entertainment brand into existing traditional forms of entertainment and invest into NFT education to unlock further innovation within the community.\nIf you have mint pass,[Visit site](https://tombraidernft.xyz) and mint.",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/ca7d5cd00e5f4206b0b8eaa2ebdaf07e/7ef92c781a75b58112c5394523fde0/227ef92c781a75b58112c5394523fde0.jpeg?fit=inside",
+          "lastIngestedAt": "2025-07-10T05:50:00.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "9",
+      "tokenType": "ERC1155",
+      "name": null,
+      "description": null,
+      "tokenUri": "https://tombraidernft.xyz/json/9",
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://tombraidernft.xyz/json/9",
+        "metadata": {},
+        "error": "Contract returned a broken token uri"
+      },
+      "collection": {
+        "name": "Tomb Raider Mint Pass Club",
+        "slug": "tomb-raider-mint-pass-club",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/ca7d5cd00e5f4206b0b8eaa2ebdaf07e/7ef92c781a75b58112c5394523fde0/227ef92c781a75b58112c5394523fde0.jpeg?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-09T21:01:46.667Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF7143Ba42d40EAeB49b88DaC0067e54Af042E963",
+        "name": "Metasaurs",
+        "symbol": "MTS",
+        "totalSupply": "9999",
+        "tokenType": "ERC721",
+        "contractDeployer": "0xdB2D562D3286B7D1FD86a2bA14802314F3c02661",
+        "deployedBlockNumber": 13405527,
+        "openSeaMetadata": {
+          "floorPrice": 0.00345,
+          "collectionName": "Metasaurs by Dr. DMT",
+          "collectionSlug": "metasaurs-nft",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/4b83c59a855f23a91de8745ada316a/3d4b83c59a855f23a91de8745ada316a.jpeg",
+          "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+          "externalUrl": null,
+          "twitterUsername": "metasaurs",
+          "discordUrl": "https://discord.gg/metasaurs",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/0e8ff4ec99e7b5dd828591bbc6f835/7e0e8ff4ec99e7b5dd828591bbc6f835.jpeg",
+          "lastIngestedAt": "2025-07-05T22:56:46.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "3644",
+      "tokenType": "ERC721",
+      "name": "Metasaurs #3644",
+      "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/QmbbA4AVHkP9vZnQZ59VVj4LzmWGXbCd6Tpwg4MyR9kkdv/3644.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/29178363d1b8310e81cab07a201fa9a7",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/29178363d1b8310e81cab07a201fa9a7",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/29178363d1b8310e81cab07a201fa9a7",
+        "contentType": "image/png",
+        "size": 246594,
+        "originalUrl": "https://ipfs.io/ipfs/QmPZfiB2fMjKZfKfFPELpwNz7W1aqoJGLdLLapy5v1cWgs/3644.png"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://mtsr.mypinata.cloud/ipfs/QmbbA4AVHkP9vZnQZ59VVj4LzmWGXbCd6Tpwg4MyR9kkdv/3644.json",
+        "metadata": {
+          "name": "Metasaurs #3644",
+          "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+          "image": "https://mtsr.mypinata.cloud/ipfs/QmPZfiB2fMjKZfKfFPELpwNz7W1aqoJGLdLLapy5v1cWgs/3644.png",
+          "external_url": "https://metasaurs.com",
+          "attributes": [
+            {
+              "value": "Fallout Pink",
+              "trait_type": "Background"
+            },
+            {
+              "value": "Biker Jacket",
+              "trait_type": "Clothes"
+            },
+            {
+              "value": "Angry",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Mixed Albino",
+              "trait_type": "Skin"
+            },
+            {
+              "value": "Black Beanie",
+              "trait_type": "Headgear"
+            },
+            {
+              "value": "None",
+              "trait_type": "Back"
+            },
+            {
+              "value": "Underbite",
+              "trait_type": "Mouth"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Metasaurs by Dr. DMT",
+        "slug": "metasaurs-nft",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/0e8ff4ec99e7b5dd828591bbc6f835/7e0e8ff4ec99e7b5dd828591bbc6f835.jpeg"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-05-18T14:18:08.418Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF7143Ba42d40EAeB49b88DaC0067e54Af042E963",
+        "name": "Metasaurs",
+        "symbol": "MTS",
+        "totalSupply": "9999",
+        "tokenType": "ERC721",
+        "contractDeployer": "0xdB2D562D3286B7D1FD86a2bA14802314F3c02661",
+        "deployedBlockNumber": 13405527,
+        "openSeaMetadata": {
+          "floorPrice": 0.00345,
+          "collectionName": "Metasaurs by Dr. DMT",
+          "collectionSlug": "metasaurs-nft",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/4b83c59a855f23a91de8745ada316a/3d4b83c59a855f23a91de8745ada316a.jpeg",
+          "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+          "externalUrl": null,
+          "twitterUsername": "metasaurs",
+          "discordUrl": "https://discord.gg/metasaurs",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/0e8ff4ec99e7b5dd828591bbc6f835/7e0e8ff4ec99e7b5dd828591bbc6f835.jpeg",
+          "lastIngestedAt": "2025-07-05T22:56:46.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "9109",
+      "tokenType": "ERC721",
+      "name": "Metasaurs #9109",
+      "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+      "tokenUri": "https://ipfs.io/ipfs/QmbbA4AVHkP9vZnQZ59VVj4LzmWGXbCd6Tpwg4MyR9kkdv/9109.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/808f5001cdea537eef73aa53d1e098cb",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/808f5001cdea537eef73aa53d1e098cb",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/808f5001cdea537eef73aa53d1e098cb",
+        "contentType": "image/png",
+        "size": 305346,
+        "originalUrl": "https://ipfs.io/ipfs/QmPZfiB2fMjKZfKfFPELpwNz7W1aqoJGLdLLapy5v1cWgs/9109.png"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://mtsr.mypinata.cloud/ipfs/QmbbA4AVHkP9vZnQZ59VVj4LzmWGXbCd6Tpwg4MyR9kkdv/9109.json",
+        "metadata": {
+          "name": "Metasaurs #9109",
+          "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+          "image": "https://mtsr.mypinata.cloud/ipfs/QmPZfiB2fMjKZfKfFPELpwNz7W1aqoJGLdLLapy5v1cWgs/9109.png",
+          "external_url": "https://metasaurs.com",
+          "attributes": [
+            {
+              "value": "Dandelion",
+              "trait_type": "Background"
+            },
+            {
+              "value": "None",
+              "trait_type": "Clothes"
+            },
+            {
+              "value": "3D Glasses",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Mixed Blue",
+              "trait_type": "Skin"
+            },
+            {
+              "value": "Rasta Beanie",
+              "trait_type": "Headgear"
+            },
+            {
+              "value": "None",
+              "trait_type": "Back"
+            },
+            {
+              "value": "Lockjaw",
+              "trait_type": "Mouth"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Metasaurs by Dr. DMT",
+        "slug": "metasaurs-nft",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/0e8ff4ec99e7b5dd828591bbc6f835/7e0e8ff4ec99e7b5dd828591bbc6f835.jpeg"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2024-07-08T05:28:47.640Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF7143Ba42d40EAeB49b88DaC0067e54Af042E963",
+        "name": "Metasaurs",
+        "symbol": "MTS",
+        "totalSupply": "9999",
+        "tokenType": "ERC721",
+        "contractDeployer": "0xdB2D562D3286B7D1FD86a2bA14802314F3c02661",
+        "deployedBlockNumber": 13405527,
+        "openSeaMetadata": {
+          "floorPrice": 0.00345,
+          "collectionName": "Metasaurs by Dr. DMT",
+          "collectionSlug": "metasaurs-nft",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/4b83c59a855f23a91de8745ada316a/3d4b83c59a855f23a91de8745ada316a.jpeg",
+          "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+          "externalUrl": null,
+          "twitterUsername": "metasaurs",
+          "discordUrl": "https://discord.gg/metasaurs",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/0e8ff4ec99e7b5dd828591bbc6f835/7e0e8ff4ec99e7b5dd828591bbc6f835.jpeg",
+          "lastIngestedAt": "2025-07-05T22:56:46.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "9461",
+      "tokenType": "ERC721",
+      "name": "Metasaurs #9461",
+      "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+      "tokenUri": "https://ipfs.io/ipfs/QmbbA4AVHkP9vZnQZ59VVj4LzmWGXbCd6Tpwg4MyR9kkdv/9461.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/b5ee1b10cd19fbb406a84fd320764db0",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/b5ee1b10cd19fbb406a84fd320764db0",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/b5ee1b10cd19fbb406a84fd320764db0",
+        "contentType": "image/png",
+        "size": 567269,
+        "originalUrl": "https://ipfs.io/ipfs/QmPZfiB2fMjKZfKfFPELpwNz7W1aqoJGLdLLapy5v1cWgs/9461.png"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://mtsr.mypinata.cloud/ipfs/QmbbA4AVHkP9vZnQZ59VVj4LzmWGXbCd6Tpwg4MyR9kkdv/9461.json",
+        "metadata": {
+          "name": "Metasaurs #9461",
+          "description": "Metasaurs by Dr. DMT is a collection of 9,999 unique Metasaurs living on the Ethereum blockchain, this time, forever...",
+          "image": "https://mtsr.mypinata.cloud/ipfs/QmPZfiB2fMjKZfKfFPELpwNz7W1aqoJGLdLLapy5v1cWgs/9461.png",
+          "external_url": "https://metasaurs.com",
+          "attributes": [
+            {
+              "value": "Mustard",
+              "trait_type": "Background"
+            },
+            {
+              "value": "None",
+              "trait_type": "Clothes"
+            },
+            {
+              "value": "Dark Blue",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Cheetah",
+              "trait_type": "Skin"
+            },
+            {
+              "value": "Psychedellic Captains Hat",
+              "trait_type": "Headgear"
+            },
+            {
+              "value": "None",
+              "trait_type": "Back"
+            },
+            {
+              "value": "Face Mask",
+              "trait_type": "Mouth"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Metasaurs by Dr. DMT",
+        "slug": "metasaurs-nft",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/4e102bdecad44a4b95a805bb757730cf/0e8ff4ec99e7b5dd828591bbc6f835/7e0e8ff4ec99e7b5dd828591bbc6f835.jpeg"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2024-08-21T15:28:39.966Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf7954307f50aD20810d042315B0f3634fb4E7e66",
+        "name": null,
+        "symbol": null,
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xFBC3B76A206f03f1edbF411F280444cD3fD9c7C8",
+        "deployedBlockNumber": 15019254,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Unidentified contract - zES4CYSFgU",
+          "collectionSlug": "unidentified-contract-zes4cysfgu",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": null,
+          "lastIngestedAt": "2023-03-21T23:51:58.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "4",
+      "tokenType": "ERC1155",
+      "name": "Ethernity T-shirt: Size Extra Large",
+      "description": "Included in the Ethernity Merchandise line is a 100% cotton t-shirt with dual printed-on logo. This is a limited run of high-quality pieces that our Stone Holders get first access to. Act quickly to reserve your desired piece. First Come First Serve.  Only the initial holder of this NFT will be eligible to redeem this Ethernity Merchandise.",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/Qman1s7oVjSoRzsQNk8bn4wkKtZNyKBdnAa4CzcyD97Zm3/0000000000000000000000000000000000000000000000000000000000000004.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/ca074d6ae69d689a14f50bd6c666fa36",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/ca074d6ae69d689a14f50bd6c666fa36",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/ca074d6ae69d689a14f50bd6c666fa36",
+        "contentType": "image/jpeg",
+        "size": 209647,
+        "originalUrl": "https://ipfs.io/ipfs/QmfYX8PkDPpH57cCFkvhvAdT4w6RmXvRdFEU6s1zueKWa4"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "ipfs://Qman1s7oVjSoRzsQNk8bn4wkKtZNyKBdnAa4CzcyD97Zm3/{id}.json",
+        "metadata": {
+          "name": "Ethernity T-shirt: Size Extra Large",
+          "image": "https://ipfs.io/ipfs/QmfYX8PkDPpH57cCFkvhvAdT4w6RmXvRdFEU6s1zueKWa4",
+          "description": "Included in the Ethernity Merchandise line is a 100% cotton t-shirt with dual printed-on logo. This is a limited run of high-quality pieces that our Stone Holders get first access to. Act quickly to reserve your desired piece. First Come First Serve.  Only the initial holder of this NFT will be eligible to redeem this Ethernity Merchandise.",
+          "external_url": "https://ethernity.io",
+          "attributes": {
+            "edition_id": 4,
+            "total_edition": 28,
+            "super_charge_thumbnail": "",
+            "by": "Ethernity",
+            "super_charge_video": "",
+            "edition_type": "Limited Edition",
+            "category": "Merchandise"
+          },
+          "background_color": "#000000"
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Unidentified contract - zES4CYSFgU",
+        "slug": "unidentified-contract-zes4cysfgu",
+        "externalUrl": null,
+        "bannerImageUrl": null
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-05-12T19:08:54.283Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF865dfA2d4B5683FF79112441a3932Faa3Aa5e58",
+        "name": "Uniswap - 0.3% - UNI/WETH - 176.22 - 704.63",
+        "symbol": "Uniswap V3 Rewards",
+        "totalSupply": "3000",
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x4F2552faa7f5Ab7EF7eeA5D126A97A8C9c56824D",
+        "deployedBlockNumber": 20156107,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Uniswap - 0.3% - UNI/WETH - 176.22 - 704.63",
+          "collectionSlug": "uniswap-0-3-uni-weth-176-22-704-63-2",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/0xf865dfa2d4b5683ff79112441a3932faa3aa5e58/853b367502409ebf14f3a8e81a553330.svg",
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": null,
+          "lastIngestedAt": "2025-07-02T15:45:21.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "SuspiciousMetadata"
+        ]
+      },
+      "tokenId": "1",
+      "tokenType": "ERC1155",
+      "name": "Uniswap - 0.3% - UNI/WETH - 176.22 - 704.63",
+      "description": "This NFT represents a liquidity position in a Uniswap V3 UNI-WETH pool. The owner of this NFT can modify or redeem the position. Pool Address: 0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801 UNI Address: 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 WETH Address: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 Fee Tier: 0.3% Token ID: 761192 \n\n Manage Uniswap V3 UNI-WETH pool: https://pools-uniswap.org/manage/761192",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/QmT3uojeXUdUTghGKZ3vgRUfjc1csKRNsjUa4BmU2sgc1L",
+      "image": {
+        "cachedUrl": "https://ipfs.io/ipfs/QmcSbMkPVKJAdNVwSeiFxiCbRGy5hhxPF1JhDq9ojr5T98",
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": "https://ipfs.io/ipfs/QmcSbMkPVKJAdNVwSeiFxiCbRGy5hhxPF1JhDq9ojr5T98"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://ipfs.io/ipfs/QmT3uojeXUdUTghGKZ3vgRUfjc1csKRNsjUa4BmU2sgc1L",
+        "metadata": {
+          "name": "Uniswap - 0.3% - UNI/WETH - 176.22 - 704.63",
+          "description": "This NFT represents a liquidity position in a Uniswap V3 UNI-WETH pool. The owner of this NFT can modify or redeem the position. Pool Address: 0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801 UNI Address: 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 WETH Address: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 Fee Tier: 0.3% Token ID: 761192 \n\n Manage Uniswap V3 UNI-WETH pool: https://pools-uniswap.org/manage/761192",
+          "image": "https://ipfs.io/ipfs/QmcSbMkPVKJAdNVwSeiFxiCbRGy5hhxPF1JhDq9ojr5T98",
+          "external_url": "https://pools-uniswap.org"
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Uniswap - 0.3% - UNI/WETH - 176.22 - 704.63",
+        "slug": "uniswap-0-3-uni-weth-176-22-704-63-2",
+        "externalUrl": null,
+        "bannerImageUrl": null
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-06-16T16:55:43.174Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf86f68BB8185775EE02f6e2Efd9D44d5E26A59cC",
+        "name": "Coming Events",
+        "symbol": "Coming Events",
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xF52459608D3f5C6ffC164Bde22dc520E8d4c4f45",
+        "deployedBlockNumber": 17895633,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Coming Events",
+          "collectionSlug": "coming-events-4",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": null,
+          "lastIngestedAt": "2025-07-09T12:53:35.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "EmptyMetadata",
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "1",
+      "tokenType": "ERC1155",
+      "name": null,
+      "description": null,
+      "tokenUri": "https://ipfs.io/ipfs/QmSk4FTyUobDqSnQBcFpL52cCvtZoPhx3DB1jm3vz2KKUc/1",
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "ipfs://QmSk4FTyUobDqSnQBcFpL52cCvtZoPhx3DB1jm3vz2KKUc/1",
+        "metadata": {},
+        "error": "IPFS gateway timed out"
+      },
+      "collection": {
+        "name": "Coming Events",
+        "slug": "coming-events-4",
+        "externalUrl": null,
+        "bannerImageUrl": null
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-10T12:04:25.660Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF89Ce8c2eDb616654a07c532e01c12b0ff370a23",
+        "name": "linkforfree.net",
+        "symbol": "claim rewards on linkforfree.net",
+        "totalSupply": "1500",
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xeb5C9831404188d1e1346f66f598018c2834E8d1",
+        "deployedBlockNumber": 21955468,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": "Visit linkforfree.net to claim rewards",
+          "collectionSlug": "visit-linkforfree-net-to-claim-rewards-81",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/bedf24107eae462eb6fbb0d66b08a732/afe8387115b7de94ce3e7a36756337/92afe8387115b7de94ce3e7a36756337.png",
+          "description": "Visit linkforfree.net to claim rewards",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": null,
+          "lastIngestedAt": "2025-07-10T07:36:01.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "0",
+      "tokenType": "ERC1155",
+      "name": "Visit linkforfree.net to claim rewards",
+      "description": "Visit linkforfree.net to claim rewards",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/QmfQ224rQJtwx63tMWqft1qH7KDA9UrvDe3g2D2H7jEJ7j/0000000000000000000000000000000000000000000000000000000000000000.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/55ca3a30a40a2c600e5ed9aa06d0c1c9",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/55ca3a30a40a2c600e5ed9aa06d0c1c9",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/55ca3a30a40a2c600e5ed9aa06d0c1c9",
+        "contentType": "image/png",
+        "size": 196418,
+        "originalUrl": "https://ipfs.io/ipfs/QmRVfZ8o57j14b3ezc5UbVujSsk19crfs8mv7JmTubhjHP"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://ipfs.io/ipfs/QmfQ224rQJtwx63tMWqft1qH7KDA9UrvDe3g2D2H7jEJ7j/{id}.json",
+        "metadata": {
+          "name": "Visit linkforfree.net to claim rewards",
+          "description": "Visit linkforfree.net to claim rewards",
+          "image": "https://ipfs.io/ipfs/QmRVfZ8o57j14b3ezc5UbVujSsk19crfs8mv7JmTubhjHP"
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Visit linkforfree.net to claim rewards",
+        "slug": "visit-linkforfree-net-to-claim-rewards-81",
+        "externalUrl": null,
+        "bannerImageUrl": null
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-09T23:41:04.524Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf9710A22A7939fD6Fb7589E02C195c324849911E",
+        "name": "Great Meekicks Collector Item",
+        "symbol": "Great Meekicks Collector Item",
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x7E434369440cca81729B768B020Bd07C38da1358",
+        "deployedBlockNumber": 15607614,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Great Meekicks Collector Item",
+          "collectionSlug": "great-meekicks-collector-item",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/ab436c6bcd6f425d9dd17f845f717ba1/1424bc14dd91a653cb01857cac52a4/e31424bc14dd91a653cb01857cac52a4.gif",
+          "description": "Meebits got the [sweetest kicks](https://www.meekicks.com). There are over 80 different pairs of Meebits shoes, accounting for type, color, and size. Every pair of Meekicks is uniquely tied to one of the 20,000 Meebits and has its own randomized Jump, Speed, and Dance levels. Own a Meebit? Claim your Meekicks: [https://www.meekicks.com](https://www.meekicks.com) Meekicks was created and funded by the MeebitsDAO.",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/ab436c6bcd6f425d9dd17f845f717ba1/28d1bd893333dfb034b046689ce3dc/c828d1bd893333dfb034b046689ce3dc.png?fit=inside",
+          "lastIngestedAt": "2025-07-10T06:08:00.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "EmptyMetadata",
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "149",
+      "tokenType": "ERC1155",
+      "name": null,
+      "description": null,
+      "tokenUri": null,
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://meekicks.app/ipfs2/149",
+        "metadata": {},
+        "error": "Malformed token uri, do not retry"
+      },
+      "collection": {
+        "name": "Great Meekicks Collector Item",
+        "slug": "great-meekicks-collector-item",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/ab436c6bcd6f425d9dd17f845f717ba1/28d1bd893333dfb034b046689ce3dc/c828d1bd893333dfb034b046689ce3dc.png?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-10T12:04:24.102Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xF9a566C7537ADd5b7C4c5715CF98fC68D0fc2cA9",
+        "name": "Aku Chapter VI: Home by Micah Johnson",
+        "symbol": "AKUCHAPTERVIHOMEBYMICAHJOHNSON",
+        "totalSupply": null,
+        "tokenType": "ERC721",
+        "contractDeployer": "0x05fd2B826C284a26713D26c371C042b4f7Cf9Fe9",
+        "deployedBlockNumber": 13686094,
+        "openSeaMetadata": {
+          "floorPrice": 0.039,
+          "collectionName": "Aku Chapter VI: Home by Micah Johnson",
+          "collectionSlug": "aku-chapter-vi-home-by-micah-johnson",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/b9b127955fe54a2c9e6424c23149a23e/6da65b43ac445bd7899585fa284af8/ea6da65b43ac445bd7899585fa284af8.png",
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/b9b127955fe54a2c9e6424c23149a23e/1d3ce75cd776493ea70efefd0ec911/811d3ce75cd776493ea70efefd0ec911.png",
+          "lastIngestedAt": "2025-06-30T22:37:28.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "26800011688",
+      "tokenType": "ERC721",
+      "name": "Aku Chapter VI: Home #1688/1854",
+      "description": "Aku Chapter VI: Home by Micah Johnson",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/Qmcu8HCQm81hKYcDJcrdU9E1B39Pvyti9yaaQegHy9esv3/26800011688",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/8997a98bb44e711b6a895c6f797c978a",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/8997a98bb44e711b6a895c6f797c978a",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/8997a98bb44e711b6a895c6f797c978a",
+        "contentType": "image/png",
+        "size": 838276,
+        "originalUrl": "https://media.niftygateway.com/video/upload/v1637876092/ADaniel/micahjohnson/21.11.26/Chapter_VI_Final_hutjoy_1_sjpqu8.png"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": "video/mp4;codecs=avc1",
+        "size": 302683347,
+        "originalUrl": "https://media.niftygateway.com/video/upload/v1637876092/ADaniel/micahjohnson/21.11.26/Chapter_VI_Final_hutjoy_1_sjpqu8.mp4"
+      },
+      "raw": {
+        "tokenUri": "ipfs://Qmcu8HCQm81hKYcDJcrdU9E1B39Pvyti9yaaQegHy9esv3/26800011688",
+        "metadata": {
+          "image": "https://media.niftygateway.com/video/upload/v1637876092/ADaniel/micahjohnson/21.11.26/Chapter_VI_Final_hutjoy_1_sjpqu8.png",
+          "external_url": "https://niftygateway.com/collections/akuchaptervi",
+          "animation_url": "https://media.niftygateway.com/video/upload/v1637876092/ADaniel/micahjohnson/21.11.26/Chapter_VI_Final_hutjoy_1_sjpqu8.mp4",
+          "background_color": "ffffff",
+          "name": "Aku Chapter VI: Home #1688/1854",
+          "description": "Aku Chapter VI: Home by Micah Johnson",
+          "image_hash": "QmcwB2qhsHFbAiyE7KoJ7q8Gpjf9DLaNxdd7MQC2cRzTiy"
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "Aku Chapter VI: Home by Micah Johnson",
+        "slug": "aku-chapter-vi-home-by-micah-johnson",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/b9b127955fe54a2c9e6424c23149a23e/1d3ce75cd776493ea70efefd0ec911/811d3ce75cd776493ea70efefd0ec911.png"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-07-08T23:20:58.755Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xFaD6befe286d21ae4AC234Dc9C80c7A03f60189a",
+        "name": "XUT Gobblers Goo Origin",
+        "symbol": "XUT Gobblers Goo Origin",
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0xF2D51Fd60F868B8389D64d88b803D2dc6EFd0cD7",
+        "deployedBlockNumber": 15893802,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": "XUT Gobblers Goo Origin",
+          "collectionSlug": "xut-gobblers-goo-origin",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/a3d2b85c4aab4f8cb862c359263f74ef/969c318b79dcf368e261365800f32a/d7969c318b79dcf368e261365800f32a.jpeg",
+          "description": "[Open goo](https://bit.ly/3DZFmud) at [official website](https://bit.ly/3DZFmud)\n\nGoo has just arrived to Earth. Use goo to teleport Legendary Art Gobblers to this land so that they can upgrade all gobblers.\nIf you have Gobblers Goo, please open that!",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/a3d2b85c4aab4f8cb862c359263f74ef/d6f1552f9b41bca5de93abf0a40eb1/bfd6f1552f9b41bca5de93abf0a40eb1.jpeg?fit=inside",
+          "lastIngestedAt": "2025-07-10T06:15:09.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "EmptyMetadata",
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "364",
+      "tokenType": "ERC1155",
+      "name": null,
+      "description": null,
+      "tokenUri": "https://nft-ipfs.org/ipfs/gobblersgoo/metadata/364",
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://nft-ipfs.org/ipfs/gobblersgoo/metadata/364",
+        "metadata": {},
+        "error": null
+      },
+      "collection": {
+        "name": "XUT Gobblers Goo Origin",
+        "slug": "xut-gobblers-goo-origin",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/a3d2b85c4aab4f8cb862c359263f74ef/d6f1552f9b41bca5de93abf0a40eb1/bfd6f1552f9b41bca5de93abf0a40eb1.jpeg?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-04-11T13:26:54.108Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xFeF7fDf27FB0439702D42F85FdC1be06DC370137",
+        "name": "Final Qubits Ticket",
+        "symbol": "Final Qubits Ticket",
+        "totalSupply": null,
+        "tokenType": "ERC721",
+        "contractDeployer": "0x1Bf87653bDc262D4Cfc81a2e47e6D00F3401Ade5",
+        "deployedBlockNumber": 15635262,
+        "openSeaMetadata": {
+          "floorPrice": 0,
+          "collectionName": "Final Qubits Ticket",
+          "collectionSlug": "final-qubits-ticket",
+          "safelistRequestStatus": "not_requested",
+          "imageUrl": "https://i2.seadn.io/ethereum/dec29fa822af4cb58166f572cc01e717/c3228f522be5de58d1d6131573d784/f4c3228f522be5de58d1d6131573d784.png",
+          "description": "[Qubits](https://qubice.site) are voxel characters living in the metaverse. Free Mint your Qubits [Here](https://qubice.site)\n",
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/dec29fa822af4cb58166f572cc01e717/a68f929a9409c8f79c8ded51c6f8de/2da68f929a9409c8f79c8ded51c6f8de.png?fit=inside",
+          "lastIngestedAt": "2025-07-10T07:11:07.000Z"
+        },
+        "isSpam": true,
+        "spamClassifications": [
+          "EmptyMetadata",
+          "SpammyMetadata"
+        ]
+      },
+      "tokenId": "223",
+      "tokenType": "ERC721",
+      "name": null,
+      "description": null,
+      "tokenUri": "https://qubice.site/ipfs/223",
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://qubice.site/ipfs/223",
+        "metadata": {},
+        "error": null
+      },
+      "collection": {
+        "name": "Final Qubits Ticket",
+        "slug": "final-qubits-ticket",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/dec29fa822af4cb58166f572cc01e717/a68f929a9409c8f79c8ded51c6f8de/2da68f929a9409c8f79c8ded51c6f8de.png?fit=inside"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-01-23T08:01:48.017Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xFF72F37aA4EAe3B7e1752e25DB85b209f12c1A33",
+        "name": "TABZ",
+        "symbol": "TABZ",
+        "totalSupply": "7379",
+        "tokenType": "ERC721",
+        "contractDeployer": "0x476B535CF58dbdB440fCd4e8bC21c847B70A5314",
+        "deployedBlockNumber": 16215585,
+        "openSeaMetadata": {
+          "floorPrice": 0.011789,
+          "collectionName": "TABZ NFT",
+          "collectionSlug": "tabz",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/2562cf2e8382bd3d3db5baf6812d87/e92562cf2e8382bd3d3db5baf6812d87.png",
+          "description": "AN ART PROJECT BY ALIENQUEEN. JOIN THE DISCORD ON HTTPS://DISCORD.GG/REKTGUYNFT",
+          "externalUrl": null,
+          "twitterUsername": "TABZ_NFT",
+          "discordUrl": "https://discord.gg/rektguynft",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/8af3c0847f9e0197a6bd95f205dacf/098af3c0847f9e0197a6bd95f205dacf.jpeg",
+          "lastIngestedAt": "2025-07-08T20:08:03.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "3902",
+      "tokenType": "ERC721",
+      "name": "TABZ #3902",
+      "description": "TABZ",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/bafybeib6kyjp4kgu7nza6lnhwijfe62wnquflpe4sdsegukywsnhx7lufm/3902",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/2b19d6aebc56c69e95a6ecb199ddc3bd",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/2b19d6aebc56c69e95a6ecb199ddc3bd",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/2b19d6aebc56c69e95a6ecb199ddc3bd",
+        "contentType": "image/png",
+        "size": 1188164,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeidqf4hlsd44ngbau5lojzufgqx3hkypijbhdb5eclskodkuqw43ty/3902"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "ipfs://bafybeib6kyjp4kgu7nza6lnhwijfe62wnquflpe4sdsegukywsnhx7lufm/3902",
+        "metadata": {
+          "name": "TABZ #3902",
+          "description": "TABZ",
+          "image": "ipfs://bafybeidqf4hlsd44ngbau5lojzufgqx3hkypijbhdb5eclskodkuqw43ty/3902",
+          "external_url": "https://partner.fair.xyz/TABZ",
+          "attributes": [
+            {
+              "value": "Crimson",
+              "trait_type": "Background Colour"
+            },
+            {
+              "value": "Zombie",
+              "trait_type": "Character"
+            },
+            {
+              "value": "Trippy Smile Slime",
+              "trait_type": "Background Style"
+            },
+            {
+              "value": "Seafoam",
+              "trait_type": "Face"
+            },
+            {
+              "value": "Acid Slime",
+              "trait_type": "Mouth"
+            },
+            {
+              "value": "Smiley Tears Teal",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Evil Eye Crimson",
+              "trait_type": "Forehead"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "TABZ NFT",
+        "slug": "tabz",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/8af3c0847f9e0197a6bd95f205dacf/098af3c0847f9e0197a6bd95f205dacf.jpeg"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-04-11T13:18:44.545Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xFF72F37aA4EAe3B7e1752e25DB85b209f12c1A33",
+        "name": "TABZ",
+        "symbol": "TABZ",
+        "totalSupply": "7379",
+        "tokenType": "ERC721",
+        "contractDeployer": "0x476B535CF58dbdB440fCd4e8bC21c847B70A5314",
+        "deployedBlockNumber": 16215585,
+        "openSeaMetadata": {
+          "floorPrice": 0.011789,
+          "collectionName": "TABZ NFT",
+          "collectionSlug": "tabz",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/2562cf2e8382bd3d3db5baf6812d87/e92562cf2e8382bd3d3db5baf6812d87.png",
+          "description": "AN ART PROJECT BY ALIENQUEEN. JOIN THE DISCORD ON HTTPS://DISCORD.GG/REKTGUYNFT",
+          "externalUrl": null,
+          "twitterUsername": "TABZ_NFT",
+          "discordUrl": "https://discord.gg/rektguynft",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/8af3c0847f9e0197a6bd95f205dacf/098af3c0847f9e0197a6bd95f205dacf.jpeg",
+          "lastIngestedAt": "2025-07-08T20:08:03.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "3903",
+      "tokenType": "ERC721",
+      "name": "TABZ #3903",
+      "description": "TABZ",
+      "tokenUri": "https://alchemy.mypinata.cloud/ipfs/bafybeib6kyjp4kgu7nza6lnhwijfe62wnquflpe4sdsegukywsnhx7lufm/3903",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/5025acc998255323cfe0e59376784c7c",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/5025acc998255323cfe0e59376784c7c",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/5025acc998255323cfe0e59376784c7c",
+        "contentType": "image/png",
+        "size": 1464145,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeidqf4hlsd44ngbau5lojzufgqx3hkypijbhdb5eclskodkuqw43ty/3903"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "ipfs://bafybeib6kyjp4kgu7nza6lnhwijfe62wnquflpe4sdsegukywsnhx7lufm/3903",
+        "metadata": {
+          "name": "TABZ #3903",
+          "description": "TABZ",
+          "image": "ipfs://bafybeidqf4hlsd44ngbau5lojzufgqx3hkypijbhdb5eclskodkuqw43ty/3903",
+          "external_url": "https://partner.fair.xyz/TABZ",
+          "attributes": [
+            {
+              "value": "Sky",
+              "trait_type": "Background Colour"
+            },
+            {
+              "value": "Frog",
+              "trait_type": "Character"
+            },
+            {
+              "value": "Smiley Pillz Plum",
+              "trait_type": "Background Style"
+            },
+            {
+              "value": "Toxic",
+              "trait_type": "Face"
+            },
+            {
+              "value": "Smile Slime",
+              "trait_type": "Mouth"
+            },
+            {
+              "value": "Smiley Rust",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Third Eye Plum",
+              "trait_type": "Forehead"
+            },
+            {
+              "value": "Crown Crimson",
+              "trait_type": "Headgear"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "TABZ NFT",
+        "slug": "tabz",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/8af3c0847f9e0197a6bd95f205dacf/098af3c0847f9e0197a6bd95f205dacf.jpeg"
+      },
+      "mint": {
+        "mintAddress": null,
+        "blockNumber": null,
+        "timestamp": null,
+        "transactionHash": null
+      },
+      "owners": null,
+      "timeLastUpdated": "2025-06-19T13:12:23.835Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0xFF72F37aA4EAe3B7e1752e25DB85b209f12c1A33",
+        "name": "TABZ",
+        "symbol": "TABZ",
+        "totalSupply": "7379",
+        "tokenType": "ERC721",
+        "contractDeployer": "0x476B535CF58dbdB440fCd4e8bC21c847B70A5314",
+        "deployedBlockNumber": 16215585,
+        "openSeaMetadata": {
+          "floorPrice": 0.011789,
+          "collectionName": "TABZ NFT",
+          "collectionSlug": "tabz",
+          "safelistRequestStatus": "verified",
+          "imageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/2562cf2e8382bd3d3db5baf6812d87/e92562cf2e8382bd3d3db5baf6812d87.png",
+          "description": "AN ART PROJECT BY ALIENQUEEN. JOIN THE DISCORD ON HTTPS://DISCORD.GG/REKTGUYNFT",
+          "externalUrl": null,
+          "twitterUsername": "TABZ_NFT",
+          "discordUrl": "https://discord.gg/rektguynft",
+          "bannerImageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/8af3c0847f9e0197a6bd95f205dacf/098af3c0847f9e0197a6bd95f205dacf.jpeg",
+          "lastIngestedAt": "2025-07-08T20:08:03.000Z"
+        },
+        "isSpam": false,
+        "spamClassifications": []
+      },
+      "tokenId": "3904",
+      "tokenType": "ERC721",
+      "name": "TABZ #3904",
+      "description": "TABZ",
+      "tokenUri": "https://ipfs.io/ipfs/bafybeib6kyjp4kgu7nza6lnhwijfe62wnquflpe4sdsegukywsnhx7lufm/3904",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/eth-mainnet/3a3c85b6204ee6b36b456daa52096973",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/3a3c85b6204ee6b36b456daa52096973",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/eth-mainnet/3a3c85b6204ee6b36b456daa52096973",
+        "contentType": "image/png",
+        "size": 1225410,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeidqf4hlsd44ngbau5lojzufgqx3hkypijbhdb5eclskodkuqw43ty/3904"
+      },
+      "animation": {
+        "cachedUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "ipfs://bafybeib6kyjp4kgu7nza6lnhwijfe62wnquflpe4sdsegukywsnhx7lufm/3904",
+        "metadata": {
+          "name": "TABZ #3904",
+          "description": "TABZ",
+          "image": "ipfs://bafybeidqf4hlsd44ngbau5lojzufgqx3hkypijbhdb5eclskodkuqw43ty/3904",
+          "external_url": "https://partner.fair.xyz/TABZ",
+          "attributes": [
+            {
+              "value": "Indigo",
+              "trait_type": "Background Colour"
+            },
+            {
+              "value": "Cat",
+              "trait_type": "Character"
+            },
+            {
+              "value": "Trippy Smile Toxic",
+              "trait_type": "Background Style"
+            },
+            {
+              "value": "Swamp",
+              "trait_type": "Face"
+            },
+            {
+              "value": "Fright Plum",
+              "trait_type": "Mouth"
+            },
+            {
+              "value": "Shroom Trip Scarlet",
+              "trait_type": "Eyes"
+            },
+            {
+              "value": "Drip Horns Scarlet",
+              "trait_type": "Headgear"
+            }
+          ]
+        },
+        "error": null
+      },
+      "collection": {
+        "name": "TABZ NFT",
+        "slug": "tabz",
+        "externalUrl": null,
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/7c69be792ea64284aafd57367e205f7b/8af3c0847f9e0197a6bd95f205dacf/098af3c0847f9e0197a6bd95f205dacf.jpeg"
+      },
+      "mint": {
+        "mintAddress": "0xd2b9f9d1e6734f241b2a6eb64ef7f6e63af0a97d",
+        "blockNumber": 16242649,
+        "timestamp": "2022-12-22T20:31:23Z",
+        "transactionHash": "0x62528e11daf6b2e433abcddfc174c28a59273d8f9f2619cc7a7f165183ca4176"
+      },
+      "owners": null,
+      "timeLastUpdated": "2024-11-01T02:29:05.415Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    }
+  ],
+  "totalCount": 521,
+  "validAt": {
+    "blockNumber": 22888662,
+    "blockHash": "0xd69cea727ccaa1e383f1f9bd2538589ff6721f59b31d884d124b4798138dc5ae",
+    "blockTimestamp": "2025-07-10T12:04:11Z"
+  },
+  "pageKey": null
+}
