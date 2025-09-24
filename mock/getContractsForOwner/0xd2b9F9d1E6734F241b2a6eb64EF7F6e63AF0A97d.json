@@ -1,0 +1,316 @@
+{
+  "contracts": [
+    {
+      "address": "0x33fd426905f149f8376e227d0c9d3340aad17af1",
+      "totalBalance": 123,
+      "numDistinctTokensOwned": 123,
+      "isSpam": false,
+      "tokenId": "0x0111",
+      "title": "First Contact",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0x4b76837f8d8ad0a28590d06e53dcd44b6b7d4554",
+      "deployedBlockNumber": 14933632,
+      "opensea": {
+        "floorPrice": 0.0288,
+        "collectionName": "The Memes by 6529",
+        "collectionSlug": "thememes6529",
+        "safelistRequestStatus": "verified",
+        "imageUrl": "https://i2.seadn.io/ethereum/a5f5e2ad68544bb6b9e44ca60c100883/73c42207ea4d7dc1bb6ed5c0b01243/8573c42207ea4d7dc1bb6ed5c0b01243.jpeg",
+        "description": "The Memes Collection is focused on the fight for the open metaverse (decentralization, community, self-sovereignty) and spreading this message to many people, many wallets.\n\nIt is a collection that is meant to be open and accessible. Edition sizes will generally be large and inexpensive, to spread the word and to avoid gas wars.\n\nWe will try to have a good time along the way, make some fun art, do great collabs and just generally have a good time.\n\nFor more information visit https://6529.io/about/the-memes",
+        "twitterUsername": "6529er",
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/a5f5e2ad68544bb6b9e44ca60c100883/2be663d7ec0bf67cbe6c2d6484f32c/422be663d7ec0bf67cbe6c2d6484f32c.jpeg?fit=inside",
+        "lastIngestedAt": "2025-09-16T13:44:32.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/a269266ee68de9953c2e9a97a8be2ed1",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/a269266ee68de9953c2e9a97a8be2ed1",
+          "raw": "https://arweave.net/FAXrhXWgjVqNkB6YjVn10ZQi1e4dc5-Qao1cx5JI0ds",
+          "format": "jpeg",
+          "bytes": 1324917
+        }
+      ]
+    },
+    {
+      "address": "0x9720e5e11f4da9b3034b5ee17f901425f8d5798c",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "stethaward.net",
+      "title": "Visit stethaward.net to claim rewards",
+      "symbol": "claim rewards on stethaward.net",
+      "totalSupply": "1500",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0x70e475a0e9baebe5899f9cb2eeeef048dd633c05",
+      "deployedBlockNumber": 22362225,
+      "opensea": {
+        "floorPrice": 0,
+        "collectionName": "Visit stethaward.net to claim rewards",
+        "collectionSlug": "visit-stethaward-net-to-claim-rewards-20",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/fd639d06718940f0b38888a1c1460f00/482233c9bd1b78c4ae04c91570a346/be482233c9bd1b78c4ae04c91570a346.png",
+        "description": "Visit stethaward.net to claim rewards",
+        "lastIngestedAt": "2025-09-14T11:41:36.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/635a26da03af85a24e549b51465bba4f",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/635a26da03af85a24e549b51465bba4f",
+          "raw": "https://ipfs.io/ipfs/QmUnY3iEoJbpxmFUGboWGgXZF5gz3kkGybE8tMRKCkYttN",
+          "format": "png",
+          "bytes": 123542
+        }
+      ]
+    },
+    {
+      "address": "0xbcc99ee5801784d653de385231ae641f69f94139",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "claim reward on blazefair.com",
+      "title": "claim reward on blazefair.com",
+      "symbol": "claim reward on blazefair.com",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0xaa60599bf3c68e366799240c1956902315b18f49",
+      "deployedBlockNumber": 22359497,
+      "opensea": {
+        "collectionName": "claim reward on blazefair.com",
+        "collectionSlug": "claim-reward-on-blazefair-com-64",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/0xbcc99ee5801784d653de385231ae641f69f94139/74aa3a31dc28c685b2e64b4ffdd8b0/4f74aa3a31dc28c685b2e64b4ffdd8b0.png",
+        "lastIngestedAt": "2025-09-14T05:37:35.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://ipfs.io/ipfs/QmeNgX93jryCskXwThZN2NGTmRZ3PqY7EConX9Mpnyk8Tg",
+          "raw": "ipfs://QmeNgX93jryCskXwThZN2NGTmRZ3PqY7EConX9Mpnyk8Tg"
+        }
+      ]
+    },
+    {
+      "address": "0x3e1aeaeca309323674c63ae5bade93656cd5b6a0",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x08",
+      "name": "Knits by Grandma",
+      "title": "Knit-Pain",
+      "symbol": "KBG",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0xdf39e4c0e5dd616773e3a2581a22a26740c9b151",
+      "deployedBlockNumber": 22169152,
+      "opensea": {
+        "floorPrice": 0.1,
+        "collectionName": "Knits by Grandma",
+        "collectionSlug": "knits-by-grandma",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/637f32b8b984463f8688aae43ec93ee7/242c4cd1fdd3cef62da1022ad69f66/f9242c4cd1fdd3cef62da1022ad69f66.png",
+        "description": "For personalised grifter knits, email grandmaknits@protonmail.com",
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/637f32b8b984463f8688aae43ec93ee7/d168f794b4beb8b1398ca34e561f8a/81d168f794b4beb8b1398ca34e561f8a.png?fit=inside",
+        "lastIngestedAt": "2025-09-17T09:19:32.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/ad5b5f0a5f8c5ce28140d221e015a9b0",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/ad5b5f0a5f8c5ce28140d221e015a9b0",
+          "raw": "ipfs://bafybeidbnf3opr2kaq7hl644cmyuybeq64imv5j2oucwht6kwt7aefb5za/8",
+          "format": "png",
+          "bytes": 2614494
+        }
+      ]
+    },
+    {
+      "address": "0xb3e232251af428cca4b32ed09e1ab8db0cd70328",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "eth-blaze.net",
+      "title": "Visit eth-blaze.net to claim rewards",
+      "symbol": "claim rewards on eth-blaze.net",
+      "totalSupply": "1500",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0xa8a3bfd02bb35af7b887280296bed2ea2175e156",
+      "deployedBlockNumber": 22062317,
+      "opensea": {
+        "collectionName": "Visit eth-blaze.net to claim rewards",
+        "collectionSlug": "visit-eth-blaze-net-to-claim-rewards-113",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/f7a2db7936344cf09dd0ceda6c12699a/d938efb2b524f9265ba87de126b153/41d938efb2b524f9265ba87de126b153.png",
+        "description": "Visit eth-blaze.net to claim rewards",
+        "lastIngestedAt": "2025-09-23T00:20:33.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/6767491ac78a367ea2479ceaf4405068",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/6767491ac78a367ea2479ceaf4405068",
+          "raw": "https://ipfs.io/ipfs/QmeTAazmYyHgw2TBgRjH52vSoPMkgd79YdUgqJzBu6wsnx",
+          "format": "png",
+          "bytes": 1420621
+        }
+      ]
+    },
+    {
+      "address": "0xf89ce8c2edb616654a07c532e01c12b0ff370a23",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "linkforfree.net",
+      "title": "Visit linkforfree.net to claim rewards",
+      "symbol": "claim rewards on linkforfree.net",
+      "totalSupply": "1500",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0xeb5c9831404188d1e1346f66f598018c2834e8d1",
+      "deployedBlockNumber": 21955468,
+      "opensea": {
+        "collectionName": "Visit linkforfree.net to claim rewards",
+        "collectionSlug": "visit-linkforfree-net-to-claim-rewards-81",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/bedf24107eae462eb6fbb0d66b08a732/afe8387115b7de94ce3e7a36756337/92afe8387115b7de94ce3e7a36756337.png",
+        "description": "Visit linkforfree.net to claim rewards",
+        "lastIngestedAt": "2025-09-17T09:28:40.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/55ca3a30a40a2c600e5ed9aa06d0c1c9",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/55ca3a30a40a2c600e5ed9aa06d0c1c9",
+          "raw": "https://ipfs.io/ipfs/QmRVfZ8o57j14b3ezc5UbVujSsk19crfs8mv7JmTubhjHP",
+          "format": "png",
+          "bytes": 196418
+        }
+      ]
+    },
+    {
+      "address": "0xef8c9c4651d93794d5b90fcb9ffbbcad22fab376",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "pepefinance.net",
+      "title": "Visit pepefinance.net to claim rewards",
+      "symbol": "claim rewards on pepefinance.net",
+      "totalSupply": "1500",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0x1ec53f4e908079d7cd26036dad316237cd5cf872",
+      "deployedBlockNumber": 21777401,
+      "opensea": {
+        "collectionName": "Visit pepefinance.net to claim rewards",
+        "collectionSlug": "visit-pepefinance-net-to-claim-rewards-22",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/112cae058ad94fe7bbb04d4193c3f054/6f9e545a6b32a3daa33c3ad263e898/5e6f9e545a6b32a3daa33c3ad263e898.png",
+        "description": "Visit pepefinance.net to claim rewards",
+        "lastIngestedAt": "2025-09-23T06:21:50.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/4bdaf86e81e926b54912b9b983ac2aec",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/4bdaf86e81e926b54912b9b983ac2aec",
+          "raw": "https://ipfs.io/ipfs/QmP2p7AgsahGSC7AtUCKvsCSFwa9nywQ3rGcQqd4E2GQ5X",
+          "format": "png",
+          "bytes": 325436
+        }
+      ]
+    },
+    {
+      "address": "0x7a63d17f5a59bca04b6702f461b1f1a1c59b100b",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": false,
+      "tokenId": "0x0000000000000000000000000000000000000000000000000000000000000311",
+      "name": "Winds of Yawanawa by Yawanawa and Refik Anadol",
+      "title": "Winds of Yawanawa #785 by Yawanawa and Refik Anadol",
+      "symbol": "YAWANAWA",
+      "totalSupply": "1000",
+      "tokenType": "ERC721",
+      "contractDeployer": "0xac8a794320cbaceac16ab27ab6cf83768b595249",
+      "deployedBlockNumber": 17658868,
+      "opensea": {
+        "floorPrice": 4.78,
+        "collectionName": "Winds of Yawanawa by Yawanawa and Refik Anadol",
+        "collectionSlug": "winds-of-yawanawa",
+        "safelistRequestStatus": "verified",
+        "imageUrl": "https://i2.seadn.io/ethereum/71664d2af7984b1ebfffb39c0eafb51e/795786ed318c580e8438874c21603f/98795786ed318c580e8438874c21603f.jpeg",
+        "description": "A first-of-its-kind space of co-creation between the Brazilian Indigenous Yawanawa community and media artist Refik Anadol.\r\n\r\nLaunching this historical collaboration, the Yawanawa community and Refik Anadol Studio have co-authored the Genesis collection 'Winds of Yawanawa'. The collection of 1000 unique Data Paintings brings the nuances of Yawanawa art to the digital world with the aim of preserving the community’s rich culture.\r\n\r\nFirst and only official collaborative wallet of Refik Anadol, with Instituto Nixiwaka; representing the Yawanawa communities of Aldeia Sagrada and Nova Esperança.",
+        "twitterUsername": "refikanadol",
+        "bannerImageUrl": "https://i2.seadn.io/ethereum/71664d2af7984b1ebfffb39c0eafb51e/1b620d941fd93c5c4e0762463326b6/671b620d941fd93c5c4e0762463326b6.jpeg?fit=inside",
+        "lastIngestedAt": "2025-09-17T22:48:31.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/5e5a44f349f7b4f04d7da78a4aa9b8c0",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/5e5a44f349f7b4f04d7da78a4aa9b8c0",
+          "raw": "https://cdn.kaizen.finance/nft/YAWANAWA/images/0785.png",
+          "format": "png",
+          "bytes": 27330482
+        }
+      ]
+    },
+    {
+      "address": "0x6dfd1984fdd84cb3f1a63587422fcff92d7f8e24",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "etherpool.net",
+      "title": "Visit etherpool.net to claim rewards",
+      "symbol": "claim rewards on etherpool.net",
+      "totalSupply": "1500",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0xe88216f2ca4dfba3a7f600ae91c4f0460a020118",
+      "deployedBlockNumber": 21600671,
+      "opensea": {
+        "collectionName": "Visit etherpool.net to claim rewards",
+        "collectionSlug": "visit-etherpool-net-to-claim-rewards",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/36c02d85cbcd46c98ae9f62ff4613689/3acc0596c451fbf26f97afe58a5837/fe3acc0596c451fbf26f97afe58a5837.png",
+        "description": "Visit etherpool.net to claim rewards",
+        "lastIngestedAt": "2025-09-21T13:03:37.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/1f6f0260bedbf63178d2bf0eefd2ed00",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/1f6f0260bedbf63178d2bf0eefd2ed00",
+          "raw": "https://ipfs.io/ipfs/Qmf9F95Xi2DkptwzJDXxgkWHMWn9KjMYf2qKSSksxD8DdF",
+          "format": "png",
+          "bytes": 2495438
+        }
+      ]
+    },
+    {
+      "address": "0x5be0a9aeedc6f3a72d02f9f1a24c03b57e7c4d43",
+      "totalBalance": 1,
+      "numDistinctTokensOwned": 1,
+      "isSpam": true,
+      "tokenId": "0x00",
+      "name": "link-prize.com",
+      "title": "Visit link-prize.com to claim rewards",
+      "symbol": "claim rewards on link-prize.com",
+      "totalSupply": "1500",
+      "tokenType": "ERC1155",
+      "contractDeployer": "0xcbc6e501d304f0564b404e526e4f5da4fc95490c",
+      "deployedBlockNumber": 21356820,
+      "opensea": {
+        "collectionName": "Visit link-prize.com to claim rewards",
+        "collectionSlug": "visit-link-prize-com-to-claim-rewards-4",
+        "safelistRequestStatus": "not_requested",
+        "imageUrl": "https://i2.seadn.io/ethereum/e0104519424645a6b09c120784b804ec/afe8387115b7de94ce3e7a36756337/92afe8387115b7de94ce3e7a36756337.png",
+        "description": "Visit link-prize.com to claim rewards",
+        "lastIngestedAt": "2025-09-21T11:37:20.000Z"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/eth-mainnet/5f3d7baf910528b6ce9f792c50abae30",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/eth-mainnet/5f3d7baf910528b6ce9f792c50abae30",
+          "raw": "https://ipfs.io/ipfs/QmRVfZ8o57j14b3ezc5UbVujSsk19crfs8mv7JmTubhjHP",
+          "format": "png",
+          "bytes": 196418
+        }
+      ]
+    }
+  ],
+  "totalCount": 239,
+  "pageKey": "8edfdbe0-1d69-4a8d-af65-899d008ca861"
+}

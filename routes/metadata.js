@@ -49,7 +49,7 @@ function getCollection(data) {
     collection: {
       ...data.collection,
       ...collection.collection,
-    }
+    },
   }
 }
 
@@ -65,8 +65,14 @@ async function getContract(data = {}) {
     "contractDeployer": data.contractDeployer || "0xaBA7161A7fb69c88e16ED9f455CE62B791EE4D03",
     "deployedBlockNumber": data.deployedBlockNumber || 12287507,
     "isSpam": false,
-    "spamClassifications": []
+    "spamClassifications": [],
+    "totalBalance": data.balance,
+    "numDistinctTokensOwned": data.balance,
   };
+}
+
+async function getCollectionListing(data = {}) {
+  return getContract(data);
 }
 
 async function getMetadata(data = {}) {
@@ -141,6 +147,77 @@ async function getMetadata(data = {}) {
     },
   };
 }
+
+router.get('/getContractsForOwner', async (req, res, next) => {
+  try {
+    const owner = req.query.owner;
+
+    const provider = new ethers.JsonRpcProvider(process.env.RPC_PROVIDER);
+    const abi = JSON.parse(await readFile('../zwap-contracts/abi/MockERC721.json', 'utf-8'));
+    const signer = await provider.getSigner();
+
+    const contracts = {
+      FAKE: process.env.FAKE,
+      MOCK: process.env.MOCK,
+      REPL: process.env.REPL,
+      TEST: process.env.TEST,
+    };
+    const result = [];
+    await Promise.all(Object.entries(contracts).map(async ([symbol, contract]) => {
+      const mockERC721 = new ethers.Contract(contract, abi, signer);
+      const balance = await mockERC721.balanceOf(owner);
+      result.push(await getCollectionListing(getCollection({
+        address: contract,
+        symbol,
+        balance: balance.toString(),
+      })));
+    }));
+
+    res.json({
+      contracts: result,
+      totalCount: result.length,
+      pageKey: null,
+    });
+  } catch (e) {
+    next(e);
+  }
+});
+
+router.get('/getNFTsForContract', async (req, res, next) => {
+  try {
+    const contractAddress = req.query.contractAddress;
+    const provider = new ethers.JsonRpcProvider(process.env.RPC_PROVIDER);
+    const abi = JSON.parse(await readFile('../zwap-contracts/abi/MockERC721.json', 'utf-8'));
+    const signer = await provider.getSigner();
+
+    const contracts = {
+      FAKE: process.env.FAKE,
+      MOCK: process.env.MOCK,
+      REPL: process.env.REPL,
+      TEST: process.env.TEST,
+    };
+    const symbol = Object.entries(contracts).find(([symbol, address]) => address === contractAddress)?.[0];
+    const mockERC721 = new ethers.Contract(contractAddress, abi, signer);
+    const result = [];
+    for(let i = 0; i < await mockERC721.totalSupply(); i++) {
+      const id = await mockERC721.tokenByIndex(i);
+      result.push(await getMetadata(getCollection({
+        address: contractAddress,
+        symbol,
+        tokenId: Number(id),
+      })));
+    }
+
+    const blockNumber = await provider.getBlockNumber();
+    const block = await provider.getBlock(blockNumber);
+    res.json({
+      nfts: result,
+      pageKey: null,
+    });
+  } catch (e) {
+    next(e);
+  }
+});
 
 router.get('/getNFTsForOwner', async (req, res, next) => {
   try {
