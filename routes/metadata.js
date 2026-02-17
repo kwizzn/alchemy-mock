@@ -4,6 +4,17 @@ import { ethers } from 'ethers';
 
 const router = Router();
 
+// Encode/decode page keys as 32-byte zero-padded hex strings,
+// e.g. offset 50 → "0x0000000000000000000000000000000000000000000000000000000000000032"
+function encodePageKey(offset) {
+  return '0x' + offset.toString(16).padStart(64, '0');
+}
+
+function decodePageKey(key) {
+  const parsed = parseInt(key, 16);
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
 const data = {};
 const collections = {
   FAKE: {
@@ -186,6 +197,15 @@ router.get('/getContractsForOwner', async (req, res, next) => {
 router.get('/getNFTsForContract', async (req, res, next) => {
   try {
     const contractAddress = req.query.contractAddress;
+    const pageKey = req.query.startToken || req.query.pageKey || null;
+    const startToken = pageKey ? decodePageKey(pageKey) : 0;
+    const limit = Math.min(parseInt(req.query.limit, 10) || 100, 100);
+
+    if (pageKey && startToken === null) {
+      res.status(400).json({ error: 'Invalid pageKey' });
+      return;
+    }
+
     const provider = new ethers.JsonRpcProvider(process.env.RPC_PROVIDER);
     const abi = JSON.parse(await readFile('../zwap-contracts/abi/MockERC721.json', 'utf-8'));
     const signer = await provider.getSigner();
@@ -198,22 +218,37 @@ router.get('/getNFTsForContract', async (req, res, next) => {
     };
     const symbol = Object.entries(contracts).find(([symbol, address]) => address === contractAddress)?.[0];
     const mockERC721 = new ethers.Contract(contractAddress, abi, signer);
+    const totalSupply = Number(await mockERC721.totalSupply());
+
+    // Collect all token IDs, then filter by startToken
+    const allTokenIds = [];
+    for (let i = 0; i < totalSupply; i++) {
+      const id = Number(await mockERC721.tokenByIndex(i));
+      allTokenIds.push(id);
+    }
+    allTokenIds.sort((a, b) => a - b);
+
+    // Find tokens >= startToken, take up to limit
+    const filtered = allTokenIds.filter(id => id >= startToken);
+    const page = filtered.slice(0, limit);
+
     const result = [];
-    for(let i = 0; i < await mockERC721.totalSupply(); i++) {
-      const id = await mockERC721.tokenByIndex(i);
+    for (const tokenId of page) {
       result.push(await getMetadata(getCollection({
         address: contractAddress,
         symbol,
-        tokenId: Number(id),
+        tokenId,
       })));
     }
 
-    const blockNumber = await provider.getBlockNumber();
-    const block = await provider.getBlock(blockNumber);
-    res.json({
-      nfts: result,
-      pageKey: null,
-    });
+    const response = { nfts: result };
+
+    // If there are more tokens beyond this page, return pageKey
+    if (filtered.length > limit) {
+      response.pageKey = encodePageKey(filtered[limit]);
+    }
+
+    res.json(response);
   } catch (e) {
     next(e);
   }
@@ -222,6 +257,9 @@ router.get('/getNFTsForContract', async (req, res, next) => {
 router.get('/getNFTsForOwner', async (req, res, next) => {
   try {
     const owner = req.query.owner;
+    const pageSize = Math.min(parseInt(req.query.limit || req.query.pageSize, 10) || 100, 100);
+    const pageKey = req.query.startToken || req.query.pageKey || null;
+
     const contractAddresses = req.query['contractAddresses[]'];
     let filter;
     if (contractAddresses) {
@@ -238,15 +276,18 @@ router.get('/getNFTsForOwner', async (req, res, next) => {
       REPL: process.env.REPL,
       TEST: process.env.TEST,
     };
-    const result = [];
+
+    // Collect ALL matching NFTs across contracts
+    const allNfts = [];
     await Promise.all(Object.entries(contracts).map(async ([symbol, contract]) => {
+      if (filter && !filter.map(a => a.toLowerCase()).includes(contract.toLowerCase())) {
+        return;
+      }
       const mockERC721 = new ethers.Contract(contract, abi, signer);
-      for(let i = 0; i < await mockERC721.balanceOf(owner); i++) {
+      const balance = Number(await mockERC721.balanceOf(owner));
+      for (let i = 0; i < balance; i++) {
         const id = await mockERC721.tokenOfOwnerByIndex(owner, i);
-        if (filter && !filter.map(a => a.toLowerCase()).includes(contract.toLowerCase())) {
-          continue;
-        }
-        result.push(await getMetadata(getCollection({
+        allNfts.push(await getMetadata(getCollection({
           address: contract,
           symbol,
           tokenId: Number(id),
@@ -254,18 +295,39 @@ router.get('/getNFTsForOwner', async (req, res, next) => {
       }
     }));
 
+    // Determine offset from pageKey
+    let offset = 0;
+    if (pageKey) {
+      offset = decodePageKey(pageKey);
+      if (offset === null) {
+        res.status(400).json({ error: 'Invalid pageKey' });
+        return;
+      }
+    }
+
+    // Slice for this page
+    const page = allNfts.slice(offset, offset + pageSize);
+    const nextOffset = offset + pageSize;
+
     const blockNumber = await provider.getBlockNumber();
     const block = await provider.getBlock(blockNumber);
-    res.json({
-      ownedNfts: result,
-      totalCount: result.length,
+
+    const response = {
+      ownedNfts: page,
+      totalCount: allNfts.length,
       validAt: {
         blockNumber,
         blockHash: block.hash,
         blockTimestamp: new Date(block.timestamp * 1000),
       },
-      pageKey: null,
-    });
+    };
+
+    // Only include pageKey if there are more results
+    if (nextOffset < allNfts.length) {
+      response.pageKey = encodePageKey(nextOffset);
+    }
+
+    res.json(response);
   } catch (e) {
     next(e);
   }
